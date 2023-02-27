@@ -2,7 +2,9 @@
 This telegram bot is designed for monitoring the blur bids on chosen collections. 
 
 You should use your Telegram Bot API Key, Metamask password and Metamask Secret Phrase in order for the bot to work. 
-You may hardcode them into lines 116, (41,44) and 35 respectively or use .env variables 
+You may hardcode them into lines 116, (41,44) and 35 respectively or use .env variables
+
+The program stores the collections in a JSON file "collections.json" in the same directory as the main.py. It should appear once the program is launched.
 
 Commands: 
 * /start - starts the bot
